@@ -49,3 +49,12 @@
     margin-top: 0.6rem;
     color: hsl(0deg 0% 23%);
   }
+
+  @media only screen and (max-width: 800px) {
+    .password-input {
+      width: 50%;
+    }
+    .strength-meter {
+      width: 60%;
+    }
+  }
